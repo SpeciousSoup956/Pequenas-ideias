@@ -1,2 +1,4 @@
-# Pequenas-ideias
-Repositório criado para projetos pequenos, que me ajudarão a praticar programação.
+# Pequenas-ideias 💭
+<p>Repositório criado para armazenar programas criados com a finalidade de práticar programação.
+  
+
