@@ -19,29 +19,29 @@ int topo (void)
   
 }
 
-int escolha (void)
+/*int escolha (void)
 {
     //variaveis
-    int valor = 0;
+    
   
-    //desenvolvimento
-  printf("Qual tipo de equação você quer resolver?\n");
+}*/
+
+int main()
+{
+   setlocale(LC_ALL, "Portuguese");
+   
+   //variaveis
+   int valor = 0;
+   
+   //desenvolvimento
+   topo();
+  printf ("\n >> ");
+  printf("Qual tipo de Equação você quer resolver?\n");
   printf("\n1. Equação de 1° Grau.");
   printf("\n2. Equação de 2° Grau.");  
   printf ("\n\n>>> Digite o número da operação desejada: ");
   scanf("%d", &valor);
   
-}
-
-int main()
-{
-   /* setlocale(LC_ALL, "Portuguese");*/
-   //variaveis
-   
-   //desenvolvimento
-    topo();
-    printf ("\n >> ");
-    escolha ();
 
     return 0;
 }
